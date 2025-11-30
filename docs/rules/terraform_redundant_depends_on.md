@@ -12,7 +12,7 @@ rule "terraform_redundant_depends_on" {
 
 ## Attributes
 
-- **Severity:** WARNING
+- **Severity:** ERROR
 - **Enabled by default:** Yes
 
 ## Rationale

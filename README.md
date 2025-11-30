@@ -31,7 +31,7 @@ tflint --init
 |------|----------|-------------|
 | [aws_security_group_inline_rule](./docs/rules/aws_security_group_inline_rule.md) | ERROR | Disallows inline `ingress`/`egress` blocks in `aws_security_group` |
 | [aws_iam_inline_policy](./docs/rules/aws_iam_inline_policy.md) | ERROR | Disallows `aws_iam_role_policy` (inline IAM policies) |
-| [terraform_redundant_depends_on](./docs/rules/terraform_redundant_depends_on.md) | WARNING | Detects redundant `depends_on` when dependencies exist via attribute references |
+| [terraform_redundant_depends_on](./docs/rules/terraform_redundant_depends_on.md) | ERROR | Detects redundant `depends_on` when dependencies exist via attribute references |
 
 ## Configuration
 

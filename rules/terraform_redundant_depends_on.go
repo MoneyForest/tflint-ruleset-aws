@@ -30,7 +30,7 @@ func (r *TerraformRedundantDependsOnRule) Enabled() bool {
 
 // Severity returns the rule severity
 func (r *TerraformRedundantDependsOnRule) Severity() tflint.Severity {
-	return tflint.WARNING
+	return tflint.ERROR
 }
 
 // Link returns the rule reference link
